@@ -4,6 +4,17 @@ MaliciousCodeDetector
 Repository to keep track of revisions to my thesis project as the google play store limits how much I can include in the what's new section. This will be for those who want to be informed as to the past and ongoing status of the project. 
 
 Updates:
+V1.5.1
+Modified UI
+Removed ability to disable task collection as it doesn't have an apparent battery impact, will potentially add this back if I get feedback this isn't the case.
+Added more standard deviation cutoff values for user selected notification* level.
+Added EULA/Research Notice with extended information about what will be collected, how the data will be transferred/stored, and details that they can not require wifi to send data now. This will only display for new users or users who have yet to start teh application. 
+Added new check box that will allow user to require or not require WiFi to be enabled/connected to send data. There were a few users who mentioned that they never enable WiFi and have unlimited data so the only way to collect their data would be to allow them to disable this requirement.
+Added rudimentary locking into code, which doesn't appear to work or do anything... V1.5.2 might be getting this to work to prevent multiple threads accessing the DB file simultaneously. Will be using V1.6 to represent the version with user notifications working. 
+Resolved issues w/ allowing non-wifi connections
+*Note Notifications still don't work
+
+
 
 V1.5.0
 Added data processing back into application
