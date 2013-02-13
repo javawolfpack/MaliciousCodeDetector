@@ -4,6 +4,11 @@ MaliciousCodeDetector
 Repository to keep track of revisions to my thesis project as the google play store limits how much I can include in the what's new section. This will be for those who want to be informed as to the past and ongoing status of the project. 
 
 Updates:
+V1.6.0
+Added notifications on any found alerts
+Added user feedback on any found alerts
+Added notification to notify users that notifications are enabled
+
 V1.5.2
 Hopefully fixed issue in method of processing the data that was causing app to crash.
 
