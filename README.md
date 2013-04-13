@@ -4,6 +4,9 @@ MaliciousCodeDetector
 Repository to keep track of revisions to my thesis project as the google play store limits how much I can include in the what's new section. This will be for those who want to be informed as to the past and ongoing status of the project. 
 
 Updates:
+V1.7.0
+Added software hook for malicious code simulator to disable normal data collection/on phone analysis so as to collect simulated data separately. Allows simulation number and simulation type to be recorded and also sent back to server for post analysis. 
+
 V1.6.2
 Resolved issue w/ standard deviation not being standard deviation
 Added sending notification functionality
